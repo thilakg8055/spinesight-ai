@@ -17,7 +17,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "http://localhost:3001"
+        "http://localhost:3001",
+        "https://spinesight-ai-6pkt.onrender.com"
     ],
     allow_credentials=True,
     allow_methods=["*"],
