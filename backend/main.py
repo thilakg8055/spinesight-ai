@@ -18,7 +18,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://localhost:3001",
-        "https://spinesight-ai.vercel.app"
+        "https://spinesight-ai.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
